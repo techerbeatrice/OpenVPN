@@ -3,9 +3,9 @@
 ___
 
 Prérequis :    
-une VM ubuntu
+une VM ubuntu avec package mis à jour (apt update && apt upgrade -y)
 en accès par pont ou en privé hôte   
- ___
+___
 
  Installation du script OpenVPN avec la commande **wget https://git.io/vpn -O openvpn-install.sh**  
 
@@ -13,3 +13,8 @@ en accès par pont ou en privé hôte
 
 ___
 
+Après avoir suivi l’installation, tu devras importer ton fichier de   
+configuration “wilder.ovpn” et l’importer dans OpenVPN Connect ce qui te  
+permettra de rejoindre le serveur VPN   
+
+![image](https://github.com/techerbeatrice/OpenVPN/assets/138071140/6378cba8-f07c-4726-82c5-6f7d67cc91a9)
